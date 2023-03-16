@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Basic Details</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+    <script src="https://kit.fontawesome.com/be0b57e57e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <aside>
+        <button type="button">
+            <i class="fa-solid fa-arrow-up fa-2x"></i>
+        </button>
+        <div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+            <div class="circulo"></div>
+        </div>
+        <button type="button">
+            <i class="fa-solid fa-arrow-down fa-2x"></i>
+        </button>
+    </aside>
+    <main>
+        <div class="contenedor">
+            <h1>Basic Details</h1>
+            <form action="">
+                <div class="last-first-name">
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" minlength="3" maxlength="20" required>
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" minlength="2" maxlength="20" required>
+                    </div>
+                </div>
+                <div class="email-user-id">
+                    <div>
+                        <label for="email-id">Email ID</label>
+                        <input type="email" name="email-id" id="email-id" required>
+                    </div>
+                    <div>
+                        <label for="user-id">Your User ID</label>
+                        <input type="text" name="user-id" id="user-id" minlength="10" maxlength="15" required>
+                    </div>
+                </div>
+                <div class="direccion">
+                    <div class="div-b">
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option>Mexico</option>
+                            <option>España</option>
+                            <option>Estados Unidos</option>
+                            <option>Portugal</option>
+                            <option>Guatemala</option>
+                            <option>Brazil</option>
+                            <option>Argentina</option>
+                            <option>Alemania</option>
+                            <option>El salvador</option>
+                            <option>Paris</option>
+                            <option>Francia</option>
+                            <option>Paises bajos</option>
+                            <option>Nicaragua</option>
+                            <option>Peru</option>
+                            <option>Noruega</option>
+                        </select>
+                    </div>
+                    <div class="div-a">
+                        <label for="stade">Stade</label>
+                        <select name="stade" id="stade">
+                            <option>Oaxaca</option>
+                            <option>Guerrero</option>
+                            <option>Puebla</option>
+                            <option>Nuevo Leon</option>
+                            <option>Sonora</option>
+                            <option>Morelos</option>
+                            <option>Tlaxcala</option>
+                            <option>Nayarit</option>
+                            <option>Hidalgo</option>
+                            <option>Baja California</option>
+                            <option>Chiapas</option>
+                            <option>Aguascalientes</option>
+                            <option>Colima</option>
+                            <option>Durango</option>
+                            <option>Yucatan</option>
+                        </select>
+                    </div>
+                    <div class="div-a">
+                        <label for="city">City</label>
+                        <select name="city" id="city">
+                            <option>Oaxaca de Juarez</option>
+                            <option>Ciudad de Mexico</option>
+                            <option>Cancun</option>
+                            <option>Puerto Vallarta</option>
+                            <option>Monterrey</option>
+                            <option>Puesto Escondido</option>
+                            <option>Cabo San Lucas</option>
+                            <option>Palenque</option>
+                            <option>Cozumel</option>
+                            <option>Mazatlan</option>
+                            <option>Ciudad Juarez</option>
+                            <option>Ensenada</option>
+                            <option>Manzanillo</option>
+                            <option>Tampico</option>
+                            <option>Zapopan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="phone-reference">
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="text" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Reference Code" required>
+                    </div>
+                </div>
+                <div class="botones">
+                    <button type="reset">Reset All</button>
+                    <button type="submit">Continue</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
