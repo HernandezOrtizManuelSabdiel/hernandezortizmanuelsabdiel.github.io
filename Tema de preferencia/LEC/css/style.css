@@ -1,0 +1,137 @@
+img{
+  width: 350px;
+    height: 350px;
+}
+
+.RegistroTamaño {
+  width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+
+.Titulos{
+  display: inline-block;
+  width: 1294px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.Subtitulos{
+  display: inline-block; 
+  width: 1294;
+  height: 100;
+  background-color: rgb(171, 39, 39);
+  color: white;
+  padding: 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.Subtitulos2{
+  /*display: inline-block; */
+  width: 1294;
+  height: 100;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.contenedorbajo{
+  display: block;
+  width: 1294px;
+  height: 100px;
+  background-color: #C1DFB0;
+  color: white;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.contenedorbajito{
+  display: inline-block;
+  width: 625px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.form {
+  background: #bc4e0f;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+h1{
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2{
+	font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+
+p{
+  text-align: justify;
+}
+
+.form textarea {
+  background: #d8d8ce;
+  width: 100%;
+  border: 20px;
+  margin: 15px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+button{
+  border-radius: 20px;
+}
+
+.form input {
+	background: #dfdcdc;
+	width: 90%;
+	border: 10px;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+  }
+  
+  .form fieldset {
+	background: #c8b0b0;
+	width: 90%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	font-size: 14px;
+  }
+  
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  background: #ff0000;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #0026ff;
+  font-size: 14px;
+}
+.form .message {
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+body {
+  background: #00d4fe; 
+  background: rgb(0, 188, 251);
+  background: linear-gradient(90deg, rgb(6, 137, 244) 0%, rgb(9, 202, 245) 50%);
+  font-family: "Roboto", sans-serif;   
+}
